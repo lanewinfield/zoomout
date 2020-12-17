@@ -1,6 +1,9 @@
 # zoomout
  a pull switch (or BYO button) that gets you out of video calls, quick.
  
+ ![Zoomout schematic](tweet.png)
+ As seen on [Twitter](https://twitter.com/lanewinfield/status/1339257875034566656)
+ 
  ## System compatibility
  * Tested on macOS Catalina (10.15)
  * Ends Zoom + Google Meet calls (in Google Chrome)
@@ -20,6 +23,7 @@
  * A 3D printer for parts
  ### Wiring
  Wire/solder one of the two cables on the pull switch to a Digital pin (I used #5) and the other to ground. It's that easy! (schematic below shows button because I couldn't find a pull-switch and I am lazy)
+ 
  ![Zoomout schematic](zoomout-schematic.png)
  ### Change to button
  Eschew the whole pull-chain thing and just replace it with a button, if you'd like. You can even leave your device plugged into USB that way if you'd like.
