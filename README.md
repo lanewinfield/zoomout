@@ -48,4 +48,4 @@
  
  The AppleScript for the Workflow is also supplied separately, in case you wanna BYO. Essentially it finds all tabs on Chrome of instances of meet.google.com and kills them. And it manually exits any Zoom calls.
 
- ## Enjoy!
+ **Enjoy!**
