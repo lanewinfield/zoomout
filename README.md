@@ -29,12 +29,14 @@
  Eschew the whole pull-chain thing and just replace it with a button, if you'd like. You can even leave your device plugged into USB that way if you'd like.
  
  ### Printing/building
- Print the 3d parts and put 'em together. Or just jury rig your own! The mount is designed specifically for the pull-chain switch I used. Make the slot larger or smaller based on your particular pull-chain switch. Mount the finished product preferably on a stud or use good anchors. You're gonna pull down pretty hard and you don't wanna pull out a piece of your wall. 
+ Print the 3d parts and put 'em together. Or just jury rig your own! The mount is designed specifically for the pull-chain switch I used. Make the slot larger or smaller based on your particular pull-chain switch. I superglued the chain right into the socket in the top of the handle. Mount the finished product preferably on a stud or use good anchors. You're gonna pull down pretty hard and you don't wanna pull out a piece of your wall. 
  
  ## Firmware
  My process for making this work was emulating a bluetooth keyboard and sending a specific key command (CMD+F6) to the computer, which was read and then executed an Applescript.
  
  To do that, I modified an Adafruit CircuitPython script to get this to happen. It'll pair with your computer and from that point forward, it will trigger CMD+F6.
+ 
+ You can follow [all of these directions on Adafruit](https://learn.adafruit.com/ble-hid-keyboard-buttons-with-circuitpython/overview), then just replace the code with what's supplied and that should work!
  
  ## Software
  The software on the computer is a two layer process:
